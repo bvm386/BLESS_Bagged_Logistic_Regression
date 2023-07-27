@@ -1,5 +1,10 @@
 # BLESS: Bagged Logistic Regression Algorithm
 # Kyle Gardiner
+# July 27, 2023
+
+# load in libraries
+library(caret)
+library(randomForest)
 
 
 # load in data
@@ -20,10 +25,10 @@ for(ii in 1:5000){
   
   obs.id<-sample(nrow(BLESS_data),round(nrow(BLESS_data)*0.9)) # subsampling 90% of observations
   sample.SNPs<-sample(ncol(BLESS_data[,-1001]),30) # subsampling 30 predictors
-  sub.data<-BLESS_data[obs.id,c(sample.SNPs,1001)]
+  sub.data<-BLESS_data[obs.id,c(sample.SNPs,1011)]
   
   # fitting logistic model with subset data
-  myfit<-glm(y_bin~., data=sub.data, family="binomial")
+  myfit<-glm(Y~., data=sub.data, family="binomial")
   
   # determining which predictor have p-values < 0.05 
   selected.predictor.id<-which(coef(summary(myfit))[-1,4]<0.05)
@@ -45,7 +50,7 @@ predictor.freq_5000<-as.data.frame(char.counts)
 set.seed(1) # setting seed for reproducibility
 
 # fitting random forest model
-rf.model_5000<-randomForest(y_bin~.,data=BLESS_data,
+rf.model_5000<-randomForest(Y~.,data=BLESS_data,
                                 ntree=5000,
                                 importance=TRUE)
 
