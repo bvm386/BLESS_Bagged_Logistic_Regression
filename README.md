@@ -14,3 +14,25 @@ BLESS_Bagged_Logistic_Regression
 └───Supplementary Material
 │   │   SNP_to_Gene.xlsx
 │   │   .gitignore
+
+
+
+My Awesome Project
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- requirements.txt
+|-- src
+|   |-- main.py
+|   |-- utils.py
+|   |-- subfolder
+|       |-- helper.py
+|-- data
+|   |-- data_file1.csv
+|   |-- data_file2.csv
+|-- docs
+|   |-- design.md
+|   |-- usage.md
+|-- tests
+    |-- test_main.py
+    |-- test_utils.py
