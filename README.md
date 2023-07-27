@@ -3,7 +3,7 @@
 This GitHub repository contains the material necessary for the BLESS: Bagged Logistic Regression algorithm
 
 The repository is organined as the following:
-
+```
 BLESS_Bagged_Logistic_Regression
 │   README.md
 └───Data
@@ -14,7 +14,7 @@ BLESS_Bagged_Logistic_Regression
 └───Supplementary Material
 │   │   SNP_to_Gene.xlsx
 │   │   .gitignore
-
+```
 
 
 My Awesome Project
