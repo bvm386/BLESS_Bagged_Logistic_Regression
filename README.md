@@ -1,8 +1,8 @@
 # BLESS_Bagged_Logistic_Regression
 
-This GitHub repository contains the material necessary for the BLESS: Bagged Logistic Regression algorithm
+This GitHub repository contains the material necessary for the BLESS: Bagged Logistic Regression algorithm.
 
-The repository is organined as the following:
+The repository is organized as the following:
 ```
 BLESS_Bagged_Logistic_Regression  
 │   README.md  
