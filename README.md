@@ -13,7 +13,7 @@ BLESS_Bagged_Logistic_Regression
 │   │   BLESS_Tutorial.pdf
 │   │   .gitignore  
 └───Supplementary Material  
-│   │   SNP_to_Gene.xlsx  
+│   │   SNP_to_Gene.csv  
 │   │   .gitignore  
 ```
 
