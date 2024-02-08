@@ -9,7 +9,7 @@ BLESS_Bagged_Logistic_Regression
 └───Data  
 │   │   data.rda  
 └───R Code  
-│   │   BLESS_RF_code.R  
+│   │   BLESS_R_code.R  
 │   │   BLESS_Tutorial.pdf
 │   │   .gitignore  
 └───Supplementary Material  
