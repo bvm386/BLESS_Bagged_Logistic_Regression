@@ -17,9 +17,6 @@ BLESS_Bagged_Logistic_Regression
 │   │   BLESS_Simulation_Code.R
 │   │   Generating_Simulation_Data.R
 │   │   .gitignore
-└───Supplementary Material  
-│   │   SNP_to_Gene.csv  
-│   │   .gitignore  
 ```
 
 
